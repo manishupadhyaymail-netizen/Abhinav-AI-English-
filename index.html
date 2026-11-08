@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#2457d6"><meta name="description" content="Friendly English speaking practice with Hindi help.">
+<title>Abhinav AI English</title><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="logo">A</div><div><b>Abhinav AI English</b><small>Your friendly English coach</small></div><span class="tag">Beginner</span></header>
+<main>
+<section class="hero"><p class="eyebrow">LET'S LEARN TOGETHER</p><h1>Hello, learner! 👋</h1><p>Practise a little English every day. Listen, speak and learn with Hindi help.</p><div class="goal"><span>⭐ Today's goal</span><b>15 minutes</b></div></section>
+<section class="coach card"><div class="avatar">👨‍🏫</div><div class="grow"><b>Meet your English Coach</b><p>“Hello! I am your friendly English teacher. Let's speak together.”</p></div><button class="iconbtn" id="greet">🔊</button></section>
+<h2>Today's practice</h2><section class="lessons">
+<button data-id="greet"><span>👋</span><b>Greetings</b><small>Say hello and introduce yourself</small></button>
+<button data-id="daily"><span>🏡</span><b>Daily life</b><small>Talk about your day</small></button>
+<button data-id="school"><span>🎒</span><b>At school</b><small>Useful classroom sentences</small></button>
+<button data-id="questions"><span>💬</span><b>Easy questions</b><small>Ask and answer politely</small></button>
+</section>
+<section class="card practice"><p class="eyebrow">SPEAKING PRACTICE</p><h2 id="lessonTitle">Let's introduce ourselves</h2><div class="sentence" id="sentence">My name is Abhinav.</div><div class="hindi" id="meaning">मेरा नाम अभिनव है।</div><div class="actions"><button class="secondary" id="listen">🔊 Listen</button><button class="primary" id="record">🎙️ Speak</button></div><p id="status" class="status" aria-live="polite">Tap Listen, then try saying the sentence.</p><p id="heard" class="heard"></p></section>
+<section class="card"><p class="eyebrow">HINDI HELP</p><h2>Understand a sentence</h2><label for="english">Type an English sentence</label><textarea id="english" rows="2" placeholder="Example: How are you?"></textarea><button id="translate" class="primary wide">Show Hindi meaning</button><p id="translated" class="result">Hindi meaning will appear here.</p><small class="status">Starter version supports common phrases. Full AI translation can be added later.</small></section>
+<footer>Learn kindly. Practise daily. Every small step counts. 🌱</footer>
+</main><script src="app.js"></script>
+</body></html>
